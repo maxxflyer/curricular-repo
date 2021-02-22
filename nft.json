@@ -1,0 +1,18 @@
+{
+    "image": "ipfs://ipfs/QmXwPWCahSTyxb7epbAuqSUKMqir8Ybp14huBX7DNvKaw2",
+    "image_data": "ipfs://ipfs/QmXwPWCahSTyxb7epbAuqSUKMqir8Ybp14huBX7DNvKaw2",
+    "description": "this is a referral badge egnerated by a factory extension",
+    "background_color": "#ffffff",
+    "discussionUri": "",
+    "externalDNS": "",
+    "externalENS": "",
+    "repoUri": "",
+    "name": "Referral Lottery Badge",
+    "symbol": "RLB",
+    "decimals": 1,
+    "hasDecimals": false,
+    "originalCreator": "0xfa28ED428D54424D42ED4F71415315df2f2E49D6",
+    "extensionAddress": "",
+    "external_url": "smartshop.eth",
+    "license_url": ""
+}
