@@ -2,40 +2,50 @@
 
 
 #Avatar_mainlabel{
-
     color: white;
     font-size: 40px;
-    margin-left: -21px;
-    text-align: center;
+    margin-left: 71px;
+    margin-bottom: 30px;
 }
 
 .Avatar_row{
-    margin-top: 50px;
+    margin-top: 5px;
     width: 100%;
 }
 
 .Avatar_label{
- 
     color: white;
-    font-size: 100px;
-    margin-left: 200px;
+    font-size: 30px;
+    margin-left: 20px;
     float: left;
 }
 
+.Avatar_panel{
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
 .Avatar_names{
- 
     color: white;
-    font-size: 100px;
+    font-size: 30px;
     float: right;
-    margin-right: 300px;
+    margin-right: 20px;
+}
+
+.avatar_left_col{
+    width: calc( 100% - 550px );
+    float: left;
+    height: 1000px;
 }
 
 .Avatar_face{
-  
     color: white;
-    font-size: 300px;
+    font-size: 100px;
     text-align: center;
-    margin-left: calc( ( 100% / 2 ) - 210px )
+    margin-left: 130px;
+    cursor: pointer;
 }
 
 #avatar_image{
@@ -70,13 +80,20 @@
 .Avatar_signature{
     font-style:italic;
     color: white;
-    font-size: 70px;
+    font-size: 25px;
     float: right;
-    margin-right: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.cardpanel{
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 30px;
 }
 
 #Avatar_signature{
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 #avatar_button:hover{

@@ -2,21 +2,26 @@ import React, { Component } from 'react'
 import Web3 from 'web3';
 import './css.css';
 import utils from './../../library'
+import PersonalFeed from '../PersonalFeed/PersonalFeed'
+import Curriculum from '../Curriculum/Curriculum'
 
 
 class Avatar extends Component {
-   
+   state={avatar:"0xdA1Ec8F2Fb47e905079663bCEA69f1a2B010f2D3"}
 
     componentDidMount() {
         this.loadBlockchainData()
-        utils.loadOwnerColors()
+      
     }
     
     
         async loadBlockchainData() {
+            let account
             window.ethereum.enable().then(async function (accounts) {
-                let account=accounts[0];
+                account=accounts[0];
                 if(getUrlVars()['account'])account=getUrlVars()['account']
+                if(account=="undefined")account=accounts[0]
+                window.history.pushState('avatar_page', 'Avatar Display', '/curricular/?account='+account)
                 const { REACT_APP_ABI } = process.env;
                 const { REACT_APP_BOWS } = process.env;
                 const beans = new web3.eth.Contract(JSON.parse(REACT_APP_ABI), REACT_APP_BOWS) 
@@ -24,7 +29,7 @@ class Avatar extends Component {
                 if(account!=""){   
                     let avatar="👻";
                     let res=account
-                    avatar=getAvatar(res.toLowerCase());
+                    avatar=utils.getAvatar(res.toLowerCase());
                     document.getElementById("Avatar_face").innerHTML = '<span class="Avatar_face" aria-labelledby="jsx-a11y/accessible-emoji" role="img">'+avatar+'</span>';
                     document.getElementById("Avatar_name").innerHTML = avatar;
                     let avatar2=getFamily(res.toLowerCase());
@@ -35,13 +40,24 @@ class Avatar extends Component {
                     document.getElementById("Avatar_family").innerHTML = '<span class="Avatar_face" aria-labelledby="jsx-a11y/accessible-emoji" role="img">👻</span>';                 
                 }
             })
+            this.setState({avatar:account})
         }
 
     render(){
         return ( 
-        <div id="Avatar_panel">
+            <>
+            <div className="avatar_left_col">
+                <Curriculum></Curriculum>
+            </div>
+            <div className="cardpanel">
             <div id="Avatar_mainlabel">Official ID Card</div>
-            <span id="Avatar_face" aria-labelledby="jsx-a11y/accessible-emoji" role="img">🐻</span>
+            <span id="Avatar_face" aria-labelledby="jsx-a11y/accessible-emoji" role="img" onClick={() => window.open('https://etherscan.com/address/'+getUrlVars()["account"])}></span>
+            <div className="clear"></div>
+
+            <PersonalFeed update={this.props.update} avatar={this.state.avatar}></PersonalFeed>
+            <div className="clear"></div>
+            <div id="Avatar_panel" className="Avatar_panel darkblue">
+            
             <div className="Avatar_row">
             <div className="Avatar_label">First Name:</div>
             <span id="Avatar_name" className="Avatar_names" aria-labelledby="jsx-a11y/accessible-emoji" role="img">🐻</span>
@@ -78,6 +94,8 @@ class Avatar extends Component {
          
             <div className="clear"/>
         </div>
+        </div>
+        </>
         );
     }
 
