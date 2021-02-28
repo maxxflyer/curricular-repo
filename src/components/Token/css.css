@@ -1,0 +1,86 @@
+
+
+
+#Token_mainlabel{
+    
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#Token_info{width: 450px; margin:auto;}
+
+#Token_label{
+      
+    color: white;
+    font-size: 35px;
+    margin-top:20px;
+    margin-bottom: 0px;
+    width: 100%;
+    text-align:center;
+}
+
+#Token_supply{
+      
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align:center;
+}
+#Token_symbol{
+      
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+#Token_name{
+      
+    color: white;
+    font-size: 80px;
+    margin-top:20px;
+
+    width: 100%;
+    text-align:center;
+}
+
+#Token_image{
+   width: 180px;
+   cursor: pointer;
+   font-size: 100px;
+}
+
+.Token_image_container{
+    width: 180px;
+    font-size: 130px;
+ margin:auto;
+ }
+
+#Token_flyer{
+    width: 100%;
+    margin:auto;
+    margin-top: 0px;
+    height: 100%;
+    align: center;
+   }
+
+#Token_button{
+    cursor: pointer;
+margin:auto;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background:#0788ae;
+    border-radius:15px;
+    font-weight: bold;
+}
+
+#Token_button:hover{
+    border-radius:15px;
+    background: white;
+    color:#0788ae;
+}

@@ -1,0 +1,66 @@
+#superpad{
+    width: calc( 100% );
+    height: calc( 100% - 120px );
+    margin-top: 5px;
+    font-family: 'Play', sans-serif;
+}
+
+
+
+#pad{
+    width: calc( 100% - 40px);
+    height: calc( 100% - 30px );
+    padding: 20px;
+    float: left;
+    margin-top: 5px;
+    font-family: 'Play', sans-serif;
+}
+
+#beans_pad{
+    width: calc( 100% - 40px);
+    height: 2000px;;
+    padding: 20px;
+    background: white;
+    float: left;
+    margin-top: 5px;
+}
+
+#DFO_pad{
+    width: calc( 100% - 40px);
+    height: 2000px;;
+    padding: 20px;   
+     background:white;
+    float: left;
+    margin-top: 5px;
+}
+
+#instructions_pad{
+    width: calc( 100% - 40px);
+
+    padding: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+#Avatar_pad{
+    width: calc( 100% - 40px);
+    height: 2000px;
+    padding: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+#openLayout{
+    background:rgb(5, 124, 21);
+color: white;
+float: right;
+width: 90px;
+border: solid 1px black;
+cursor: pointer;
+font-size: 26px;
+text-align: center;
+height: calc( 100% - 4px );
+border-radius: 5px;
+
+}
+

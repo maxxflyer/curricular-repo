@@ -1,0 +1,106 @@
+
+
+
+#factory_mainlabel{
+    font-family: 'Play', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.factory_mainlabel2{
+    text-align: right;
+    font-family: 'Play', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.factory_row{
+    float: left;
+    width: 100%;
+}
+
+.factory_sublabel{
+    font-family: 'Play', sans-serif;
+    color: black;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+#splash_image{
+   width: 180px;
+font-size: 180px;
+}
+
+#factory_flyer{
+    width: 800px;
+    font-family: 'Play', sans-serif;
+margin:auto;
+    margin-top: 50px;
+    height: 100%;
+    text-align: center;
+    color: black;
+   }
+
+#splash_flyer_left{
+    width: calc( ( 100% - 250px ) / 2 - 20px );
+    float: left;
+    margin-top: 20px;
+    height: 300px;
+    text-align: right;
+    padding-top: 70px;
+   }
+
+   .splash_label{
+       margin:20px;
+       
+       color: white;
+       font-size: 25px;
+       cursor: pointer;
+   }
+
+   .splash_label:hover{
+    color: #0788ae;
+}
+
+   #splash_flyer_right{
+    width: calc( ( 100% - 250px ) / 2 - 20px );
+    float: left;
+    height: 200px;
+    margin-top: 20px;
+    height: 300px;
+    text-align: left;
+    padding-top: 70px;
+   }
+
+.curriculum_button{
+    cursor: pointer;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-top: 40px;
+    font-size: 64px;
+    color: white;
+    border-radius:15px;
+    width: 160px;
+    height: 130px;
+    float: left;
+    border: solid 1px #979797;
+}
+
+.curriculum_button:hover{
+    border-radius:15px;
+    background: white;
+    color:black;
+}

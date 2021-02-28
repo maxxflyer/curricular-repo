@@ -1,0 +1,58 @@
+
+
+
+
+.personalfeed_logo{
+    width: 60px;
+}
+
+.personalfeed_logobox{
+    width: 60px;
+    height: 60px;
+    border: solid 3px white;
+    border-radius: 9px;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    overflow:hidden;
+}
+
+.add_curricular{
+    width: 66px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: solid 0px gray;
+}
+
+.add_curricular:hover{
+    width: 60px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: solid 3px #999;
+    border-radius: 35px;
+}
+
+.personalfeed_logobox:hover{
+    overflow:hidden;
+    width: 60px;
+    height: 60px;
+    border: solid 3px black;
+    border-radius: 9px;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.clear{clear:both;}
+
+
+.personalfeed_panel{
+
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}

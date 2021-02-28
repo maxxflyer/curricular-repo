@@ -1,0 +1,52 @@
+
+
+
+#UnderConstruction_mainlabel{
+    color: white;
+    font-size: 20px;
+
+    margin: auto;
+    margin-bottom: 40px;
+    width: 200px;
+
+}
+
+#UnderConstruction_sublabel{
+      
+    color: white;
+    font-size: 18px;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+
+#UnderConstruction_image{
+    width: 200px;
+    font-size: 200px;
+}
+
+#UnderConstruction_flyer{
+    width: 400px;
+    margin:auto;
+    margin-top: 0px;
+    height: 100%;
+    text-align: center;
+   }
+
+#UnderConstruction_button{
+    cursor: pointer;
+    margin-left: -60px;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    background:#0788ae;
+    border-radius:15px;
+
+    font-weight: bold;
+}
+
+#UnderConstruction_button:hover{
+    border-radius:15px;
+    background: white;
+    color:#0788ae;
+}

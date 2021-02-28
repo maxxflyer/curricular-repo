@@ -1,0 +1,49 @@
+
+
+
+#ufactory_mainlabel{
+    font-family: 'Play', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.unofficial_personalfeed_logo{
+    width: 100px;
+    border-radius: 9px;
+}
+
+
+#factory_flyer{
+    width: 800px;
+    font-family: 'Play', sans-serif;
+margin:auto;
+    margin-top: 50px;
+    height: 100%;
+    text-align: center;
+    color: black;
+   }
+
+.unofficial_curriculum_button{
+    cursor: pointer;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-top: 40px;
+    font-size: 64px;
+    color: white;
+    border-radius: 15px;
+    width: 160px;
+    height: 130px;
+    float: left;
+    border: solid 1px #979797;
+}
+
+.unofficial_curriculum_button:hover{
+    border: solid 1px white;
+}

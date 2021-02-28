@@ -1,0 +1,81 @@
+
+
+
+#splash_mainlabel{
+    font-family: 'Play', sans-serif;
+    color: black;
+    font-size: 40px;
+
+}
+
+#HappyFarm_sublabel{
+    font-family: 'Play', sans-serif;
+    color: black;
+    font-size: 18px;
+margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#splash_image{
+   width: 180px;
+font-size: 180px;
+}
+
+#splash_flyer{
+    width: 250px;
+    font-family: 'Play', sans-serif;
+margin:auto;
+    margin-top: 50px;
+    height: 100%;
+    text-align: center;
+    color: black;
+   }
+
+#splash_flyer_left{
+    width: calc( ( 100% - 250px ) / 2 - 20px );
+    float: left;
+    margin-top: 20px;
+    height: 300px;
+    text-align: right;
+    padding-top: 70px;
+   }
+
+   .splash_label{
+       margin:20px;
+       
+       color: white;
+       font-size: 25px;
+       cursor: pointer;
+   }
+
+   .splash_label:hover{
+    color: #0788ae;
+}
+
+   #splash_flyer_right{
+    width: calc( ( 100% - 250px ) / 2 - 20px );
+    float: left;
+    height: 200px;
+    margin-top: 20px;
+    height: 300px;
+    text-align: left;
+    padding-top: 70px;
+   }
+
+.splash_button{
+    cursor: pointer;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    background:#979797;
+    border-radius:15px;
+    width: 215px;
+}
+
+.splash_button:hover{
+    border-radius:15px;
+    background: white;
+    color:black;
+}

@@ -1,0 +1,85 @@
+#home{
+    height: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.darkhover:hover{
+    background: #979797;
+    border: solid 3px #979797; 
+}
+
+.lighthover:hover{
+    background: #d4d4d4;
+}
+
+.lightblue{
+    background: #d3d3d3;
+}
+
+.darkblue{
+    background: #979797;
+    border: solid 3px #979797; 
+}
+
+.white{
+    color: white;
+}
+
+._20{
+    width: 20px;
+}
+
+._25{
+    width: 25px;
+}
+
+._30{
+    width: 30px;
+}
+
+._35{
+    width: 35px;
+}
+
+._40{
+    width: 40px;
+}
+
+._50{
+    width: 50px;
+}
+
+._60{
+    width: 60px;
+    float: left;
+}
+
+._70{
+    width: 70px;
+}
+
+._80{
+    width: 80px;
+}
+
+._90{
+    width: 90px;
+}
+
+._100{
+    width: 100px;
+}
+
+.instructions_title{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
