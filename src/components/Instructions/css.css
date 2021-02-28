@@ -1,0 +1,127 @@
+
+
+
+#Instructions_mainlabel{
+
+    color: white;
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Instruction_label{
+  
+    color: white;
+    font-size: 40px;
+    float: left;
+}
+
+.Instruction_desc{
+  
+    color: white;
+    font-size: 34px;
+    padding-left: 80px;
+    margin-top: 20px;
+    width: 800px;
+    float: left;
+}
+
+.clear{clear:both;}
+
+.Instruction{
+    background:#0788ae;
+    border-radius:20px;
+    width: calc( 100% - 40px );
+    padding: 20px;
+    cursor: pointer;
+    height: 60px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.Instruction_button{
+    flot: right;
+
+}
+
+.Instruction:hover{
+    cursor: default;
+    height: 390px;
+    margin-bottom: 10px;
+   
+}
+
+.Instruction:hover{
+    background:#0788ae;
+}
+
+.Instruction_image{
+   width: 70px;
+   margin-left: 10px;
+   float: left;
+   font-size: 40px;
+}
+
+#Instructions_panel{
+    width: 100%;
+
+    margin-top: 0px;
+    height: 100%;
+    align: center;
+   }
+
+.Instruction_button{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    background: #0788ae;
+    border-radius: 15px;
+    font-weight: bold;
+    float: right;
+    margin-top: 260px;
+}
+
+.Instruction_button2{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    background: #0788ae;
+    border-radius: 15px;
+    font-weight: bold;
+    float: right;
+    margin-top: 160px;
+    width:320px;
+}
+
+.Instruction_button3{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    background: #0788ae;
+    border-radius: 15px;
+    font-weight: bold;
+    float: right;
+    margin-top: 20px;
+    width:320px;
+}
+
+.Instruction_button2:hover{
+    border-radius:15px;
+    background: white;
+    color:#06617c;
+}
+
+.Instruction_button3:hover{
+    border-radius:15px;
+    background: white;
+    color:#0788ae;
+}
+
+.Instruction_button:hover{
+    border-radius:15px;
+    background: white;
+    color:#0788ae;
+}
