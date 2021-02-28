@@ -1,0 +1,195 @@
+
+
+
+.create_mainlabel{
+    font-family: 'Play', sans-serif;
+    color: black;
+    font-size: 40px;
+
+}
+
+.dapps_mainlabel{
+    font-family: 'Play', sans-serif;
+    color: rgb(126, 126, 126);
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 20px;
+    font-style: italic;
+}
+
+.dapps_mainlabel2{
+    font-family: 'Play', sans-serif;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    border: dashed 1px #999;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.dapps{
+    width: calc( 100% - 380px);
+    float: left;
+    text-align: center;
+}
+
+#HappyFarm_sublabel{
+    font-family: 'Play', sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#tags_container{
+    display:inline-block;
+}
+
+#HappyFarm_tags{
+    text-align: center;
+    width: calc( 100%  - 80px );
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.tag{
+    font-size: 12px;
+    padding: 2px 7px 4px 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background: #777;
+    color: white;
+    float: left;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tag:hover{
+    font-size: 12px;
+    padding: 2px 7px 4px 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background: white;
+    color: #777;
+    float: left;
+    border-radius: 10px;
+}
+
+#create_image{
+    width: 235px;
+    font-size: 180px;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#create_flyer{
+    width: 310px;
+    font-family: 'Play', sans-serif;
+    float: left;
+    height: 100%;
+    text-align: center;
+    color: black;
+   }
+
+.vspacer{
+    width: 1px;
+    border-radius: 3px;
+    float: left;
+    height: 455px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+#splash_flyer_left{
+    width: calc( ( 100% - 250px ) / 2 - 20px );
+    float: left;
+    margin-top: 20px;
+    height: 300px;
+    text-align: right;
+    padding-top: 70px;
+   }
+
+   .splash_label{
+       margin:20px;
+       
+       color: white;
+       font-size: 25px;
+       cursor: pointer;
+   }
+
+   .splash_label:hover{
+    color: #0788ae;
+}
+
+   #splash_flyer_right{
+    width: calc( ( 100% - 250px ) / 2 - 20px );
+    float: left;
+    height: 200px;
+    margin-top: 20px;
+    height: 300px;
+    text-align: left;
+    padding-top: 70px;
+   }
+
+.create_button{
+    cursor: pointer;
+
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    background:#979797;
+    border-radius:15px;
+    width: 215px;
+    margin:auto;
+    margin-bottom: 20px;    margin-bottom: 20px;
+}
+
+.create_button:hover{
+    border-radius:15px;
+    background: white;
+    color:black;
+}
+
+.minilabel{
+    font-size: 12px;
+    color: #333;
+    float: right;
+    padding-right: 45px;
+    margin-bottom: 10px; 
+
+z-index: 100;
+}
+
+.clear{
+    clear: both;
+}
+
+.disabled{
+    opacity: 0.2;
+    
+}
+
+.address_input{
+    padding: 7px;
+ color: #999;
+    font-size: 27px;
+    border-radius: 10px;
+    width: 220px;
+    border: 0px;
+    margin-top:5px;
+    z-index: 10;
+}
+
+.itemslogo{
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
