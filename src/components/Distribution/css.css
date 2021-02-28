@@ -1,0 +1,27 @@
+
+
+
+.Distribution_mainlabel{
+    
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+
+#Distribution_image{
+   width: 600px;
+}
+
+#Distribution_mainImage{
+    font-size: 200px;
+}
+
+#Distribution_flyer{
+    width: 100%;
+    margin:auto;
+    margin-top: 0px;
+    height: 100%;
+    text-align: center;
+   }
+
